@@ -1,0 +1,30 @@
+{
+  "name": "lesson-18",
+  "version": "1.0.0",
+  "description": "Function and unit tests",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '*.js'",
+    "pretest": "npm run lint",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/lesson-18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/lesson-18/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/lesson-18#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.5.0"
+  },
+  "dependencies": {}
+}
